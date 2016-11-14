@@ -1,0 +1,115 @@
+@font-face {
+  font-family: Hamster;
+  src: url(../fonts/Hamster.otf);
+}
+@font-face {
+  font-family: Bungasai;
+  src: url(../fonts/Bungasai.ttf);
+}
+html body{
+  margin:0;
+  padding: 0;
+}
+nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: orange;
+}
+nav{
+  background-color: #000000;
+  font-size: 25px;
+}
+nav ul{
+  display: table;
+  margin: auto;
+  text-align: center;
+}
+nav li{
+  padding: 20px;
+  display: table-cell;
+}
+#home{
+  font-family: Hamster;
+  font-size: 25px;
+  color: #FFC0CB;
+  padding-left: 10px;
+}
+img{
+  height: 300px;
+  width:500px;
+  padding: 5px;
+  margin-left: 80px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#imgvisage, #imgmaquette{
+  height: 300px;
+  width:500px;
+  padding: 5px;
+  margin-left: 350px;
+  margin-top: 20px;
+
+}
+.portfolio, .maquette, .ex5extra2, .contact{
+  text-align: center;
+  font-size: 20px;
+  text-decoration:underline;
+  font-style: italic;
+  color: #FFFFFF;
+}
+.about{
+  text-align: center;
+  font-size: 20px;
+  color: #000000;
+  font-style: italic;
+  text-decoration: underline;
+}
+.classabout{
+  font-family: Bungasai;
+  font-size: 20px;
+}
+#portfolio{
+  background-image: url(../images/informatique.jpg);
+  background-size: 100% 2900px;
+  padding: 1px;
+}
+#about{
+  background-image: url(../images/simplon.logo.png);
+  background-size: 100% 210px; /* ne plus toucher*/
+  background-repeat: no-repeat;
+  color: #000000;
+  padding: 4px;
+  background-color: #FFFFFF;
+}
+form{
+  margin-left: 60px;
+  width:40%;
+  height: 180px;
+}
+textarea{
+  width:50%; /* largeur de la case sans le réglage en bas à droite */
+  height:80%;
+}
+#contact{
+  float: right;
+  width: 650px;
+  color: #FFFFFF;
+}
+#divnoire{
+  background-color: #222222;
+  height: 200px;
+  width: 400px;
+}
+body{
+  background-image: url(../images/imgubuntu.png);
+  background-size: 100% 2000px;
+}
+footer{
+  background-color: #000000;
+  font-size:20px;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 4px;
+  position: relative;
+  margin-top: 270px;
+}
